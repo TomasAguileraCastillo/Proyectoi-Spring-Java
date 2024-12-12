@@ -11,6 +11,7 @@ public class helloworld {
     public String saludo(@PathVariable String nombreUsuario) {
         System.out.println("Ejecutando el metodo saludo");
         return "hola" + nombreUsuario;
+
     }
 
 

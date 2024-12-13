@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class helloworld {
 
-    @GetMapping("/hola/{nombreUsuario}")
+    @GetMapping("/hola/{nombreUsuario} ")
 
     public String saludo(@PathVariable String nombreUsuario) {
         System.out.println("Ejecutando el metodo saludo");
